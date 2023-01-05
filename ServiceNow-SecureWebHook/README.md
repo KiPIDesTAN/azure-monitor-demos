@@ -2,7 +2,7 @@
 
 The demonstration below walks you through the process of creating a secure webhook connection from Azure Monitor to ServiceNow as an Azure Monitor Action Group. This connectivity method integrates Azure Active Directory authentication and authorization in the communication with ServiceNow. It is more secure than previous communication methods and requires less interaction. See the list of documentation references at the end of this README.
 
-This document assumes you have an Azure subscription, but no ServiceNow account.
+This document assumes you have an Azure subscription. If you do not have a ServiceNow account, these instructions include how you can create a free one.
 
 ## Create a ServiceNow Developer Account
 
