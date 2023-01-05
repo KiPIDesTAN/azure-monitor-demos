@@ -131,7 +131,7 @@ On the OIDC Provider Configuration window that appears, select "Open Record" to 
 
 Set the OIDC Metadata URL to the value below. &lt;tenant-id> is the tenant ID for your Azure tenant and update the record.
 
-https://login.microsoftonline.com/&lt;tenant-id>/v2.0/.well-known/openid-configuration
+https://login.microsoftonline.com/<tenant-id>/v2.0/.well-known/openid-configuration
 
 
 ![OIDC Metadata URL](./images/servicenow-oidc-metadata-url.png)
