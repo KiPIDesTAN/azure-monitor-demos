@@ -1,6 +1,6 @@
 # Azure Monitor Demos
 
-This repo contains a series of Azure Monitor demos. Please, visit each folder for an individual demo.
+This repo contains a series of Azure Monitor demos. Please, visit each folder for an individual demo and instructions.
 
 ## Content
 
