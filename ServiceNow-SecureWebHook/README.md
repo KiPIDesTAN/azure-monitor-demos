@@ -129,9 +129,9 @@ On the OIDC Provider Configuration window that appears, select "Open Record" to 
 
 ![OIDC Provider Configuration](./images/servicenow-oidc-provider-configuration.png)
 
-Set the OIDC Metadata URL to the value below. &lt;tenant-id> is the tenant ID for your Azure tenant and update the record.
+Set the OIDC Metadata URL to the value below. {tenant-id} is the tenant ID for your Azure tenant and update the record.
 
-https://login.microsoftonline.com/<tenant-id>/v2.0/.well-known/openid-configuration
+https://login.microsoftonline.com/{tenant-id}/v2.0/.well-known/openid-configuration
 
 
 ![OIDC Metadata URL](./images/servicenow-oidc-metadata-url.png)
@@ -147,7 +147,7 @@ Select "Alerts" from the far left side, then "Action Groups" from the toolbar.
 Select "Create" on the toolbar to create a new action group. Set the resource group, action group name, and display name on the subsequent page to anything you'd like. Select "Next" to move to the notifications page. Click next again, unless you want to make a notification. On the "Action" page, set the "Action type" to "Secure Webhook". This will cause a Secure Webhook configuration page to appear. Set the following values:
 
 - Object ID: "ServiceNow Integration"
-- URI: https://&lt;instance-id>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor
+- URI: https://{instance-id}.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor
     - The instance-id is part of your ServiceNow instance URL. If you created a dev instance it is most likely of the form https://devXXXXX.service-now.com. devXXXXX is the instance id
 - Enable the common alert schema: Yes
 
